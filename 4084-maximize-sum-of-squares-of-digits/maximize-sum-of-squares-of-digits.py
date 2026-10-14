@@ -6,5 +6,4 @@ class Solution:
         res = "9"*k
         if r:
             res += str(r)
-        return res + "0" * (num - len(res))
-        
+        return res + "0" * (num-len(res))
