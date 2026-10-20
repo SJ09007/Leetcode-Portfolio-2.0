@@ -6,7 +6,7 @@ class Solution:
         nxt = [n] * (n + 1)
         for i in range(n - 1, -1, -1):
             if i < n - 1 and a[i] > a[i + 1]:
-                nxt[i] = i
+                nxt[i]=i
             else:
                 nxt[i] =nxt[i+1]
 
