@@ -8,7 +8,7 @@ class Solution:
             if i < n - 1 and a[i] > a[i + 1]:
                 nxt[i] = i
             else:
-                nxt[i] = nxt[i + 1]
+                nxt[i] =nxt[i+1]
 
         total = 0
         for k in range(1, n + 1):
