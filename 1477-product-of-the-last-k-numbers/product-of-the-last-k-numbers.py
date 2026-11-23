@@ -6,7 +6,6 @@ class ProductOfNumbers:
             self.s = [1]
             return
         self.s.append(self.s[-1] * num)        
-
     def getProduct(self, k: int) -> int:
         return 0 if len(self.s) <= k else self.s[-1] // self.s[-k - 1]     
 
